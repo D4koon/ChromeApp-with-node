@@ -9,9 +9,12 @@ If you want to use another package you have to adjust this template/commands ...
 1. Install node.js from https://nodejs.org/
 1. Clone this repository
 1. Open the cloned repository in commandline and enter the following commands.
-    1. npm install markdown
-    1. npm install -g browserify
-    1. browserify -r markdown -o bundle.js
+    1. Install markdown-package with:  
+    `npm install markdown`
+    1. Install browserify to get the require-syntax to work with:  
+    `npm install -g browserify`
+    1. Create the bundle.js for the markdown-require:  
+    `browserify -r markdown -o bundle.js`
 1. Open Chrome and navigate to chrome://extensions/
 1. Activate developer-mode (Should be a slider on the top right)
 1. Click on Load unpacked extension and select the root-folder of the repository
