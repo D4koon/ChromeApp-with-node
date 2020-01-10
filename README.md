@@ -1,6 +1,6 @@
 # Template for Chrome-App with node.js
 
-This template / example demonstrates how to use packages from node.js with the require-syntax.  
+This template / example demonstrates how to use packages from node.js with the require-syntax in an Chome-App. (https://developer.chrome.com/apps)  
 In this template the markdown-package frome npm is used (https://www.npmjs.com/package/markdown)  
 If you want to use another package you have to adjust this template/commands ...
 
