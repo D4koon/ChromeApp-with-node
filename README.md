@@ -8,7 +8,7 @@ If you want to use another package you have to adjust this template/commands ...
 
 1. Install node.js from https://nodejs.org/
 1. Clone this repository
-1. Open the cloned repository in commandline and the following commands
+1. Open the root of the cloned repository in commandline and the following commands
     1. Install markdown-package with:  
     `npm install markdown`
     1. Install browserify to get the require-syntax to work with:  
