@@ -1,0 +1,14 @@
+{
+	"name": "ChromeAppNodeTemplate",
+	"description": "Chrome App Node Template",
+	"version": "0.1",
+	"manifest_version": 2,
+	"permissions": [
+	],
+	"app": {
+		"background": {
+			"scripts": ["main.js"]
+		}
+	},
+	"icons": { "16": "images/icon-16.png", "128": "images/icon-128.png" }
+}
